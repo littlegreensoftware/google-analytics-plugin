@@ -98,7 +98,7 @@ UniversalAnalyticsProxy.prototype = {
 
   trackView: send(function (screen) {
     return {
-      hitType: 'screenview',
+      hitType: 'pageview',
       screenName: screen
     };
   }),
